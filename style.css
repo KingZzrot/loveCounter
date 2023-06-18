@@ -1,0 +1,39 @@
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+  }
+  
+  #container {
+    position: relative;
+    width: 400px; /* Adjust as needed */
+    height: 300px; /* Adjust as needed */
+  }
+  
+  #heart {
+    width: 100%;
+    height: auto;
+  }
+  
+  #title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+  }
+  
+  #counter {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 18px;
+  }
+  
